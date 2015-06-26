@@ -4,7 +4,8 @@
 
 module.exports = {
 	//部署机器的HOST
-	'host': 'cq01-forum-rdtest20.vm.baidu.com',
+//	'host': 'cq01-forum-rdtest20.vm.baidu.com',
+	'host': 'tc-testing-sandbox-forum05-vm.epc.baidu.com',
 	//'host': 'fe.tieba.baidu.com',
 	'modName': 'common',
 	//静态端口

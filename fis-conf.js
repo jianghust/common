@@ -20,36 +20,40 @@ fis.config.merge({
 			'widget/admin/threadManage.js',
 			'widget/admin/admin_main.js', //原来这个文件名是admin.js,在fis编译里需要修改一下文件名称
 		]*/
-		'static/lib/erplib.js':[
-			'static/lib/jquery/dist/jquery.min.js',
-			'static/lib/angular/angular.js',
-			'static/lib/angular-animate/angular-animate.js',
-			'static/lib/angular-cookies/angular-cookies.js',
-			'static/lib/angular-resource/angular-resource.js',
-			'static/lib/angular-sanitize/angular-sanitize.js',
-			'static/lib/angular-touch/angular-touch.js',
-			'static/lib/angular-ui-router/release/angular-ui-router.js',
-			'static/lib/ngstorage/ngStorage.js',
-			'static/lib/angular-ui-utils/ui-utils.js',
-			'static/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-			'static/lib/oclazyload/dist/ocLazyLoad.js',
-			'static/lib/angular-translate/angular-translate.js',
-			'static/lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
-			'static/lib/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
-			'static/lib/angular-translate-storage-local/angular-translate-storage-local.js',
+	/*
+		'template/static/lib/erplib.js':[
+			'template/static/lib/jquery/dist/jquery.min.js',
+			'template/static/lib/angular/angular.js',
+			'template/static/lib/angular-animate/angular-animate.js',
+			'template/static/lib/angular-cookies/angular-cookies.js',
+			'template/static/lib/angular-resource/angular-resource.js',
+			'template/static/lib/angular-sanitize/angular-sanitize.js',
+			'template/static/lib/angular-touch/angular-touch.js',
+			'template/static/lib/angular-ui-router/release/angular-ui-router.js',
+			'template/static/lib/ngstorage/ngStorage.js',
+			'template/static/lib/angular-ui-utils/ui-utils.js',
+			'template/static/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+			'template/static/lib/oclazyload/dist/ocLazyLoad.js',
+			'template/static/lib/angular-translate/angular-translate.js',
+			'template/static/lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
+			'template/static/lib/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
+			'template/static/lib/angular-translate-storage-local/angular-translate-storage-local.js',
 		],
-		'static/lib/erplib.css':[
-			'static/lib/bootstrap/dist/css/bootstrap.css',
-			'static/lib/animate.css/animate.css',
-			'static/lib/font-awesome/css/font-awesome.css',
-			'static/lib/simple-line-icons/css/simple-line-icons.css',
+		'template/static/lib/erplib.css':[
+			'template/static/lib/bootstrap/dist/css/bootstrap.css',
+			'template/static/lib/animate.css/animate.css',
+			'template/static/lib/font-awesome/css/font-awesome.css',
+			'template/static/lib/simple-line-icons/css/simple-line-icons.css',
 		],
-		'static/lib/erpcommon.js':[
+		*/
+		/*
+		'template/static/lib/erpcommon.js':[
 		
 		],
-		'static/lib/erpcommon.css':[
+		'template/static/lib/erpcommon.css':[
 		
 		]
+		*/
 	}
 });
 
