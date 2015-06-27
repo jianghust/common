@@ -58,7 +58,8 @@ if(!isset($resource_load)){
         <?= isset($head) ? $head : '' ?>
     </head>
     <? /* 请勿在此输出内容，</head>与<body>之间出现任何代码都是不合法的 */ ?>
-    <body>
+	<body ng-controller="AppCtrl">
+	  <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view></div>
         <?= $content;/*内容区*/?>
         <?
             /*
@@ -67,6 +68,8 @@ if(!isset($resource_load)){
             echo HTML::getScript('important'); 
             */
         ?>
+    </body>
+
         <?= HTML::js('lib/jquery/dist/jquery.min.js', 'common');?>
         <?= HTML::js('lib/angular/angular.js', 'common');?>
         <?= HTML::js('lib/angular-animate/angular-animate.js', 'common');?>
@@ -89,5 +92,4 @@ if(!isset($resource_load)){
         <?= isset($after_body) ? $after_body : '' ?>
         <?= HTML::getScript('normal'); ?>
         <?= HTML::getScript('optional'); ?>
-    </body>
 </html>
