@@ -47,13 +47,13 @@ fis.config.merge({
 		],
 		*/
 		/*
-		'template/static/lib/erpcommon.js':[
-		
-		],
-		'template/static/lib/erpcommon.css':[
-		
-		]
 		*/
+		'template/static/lib/erp/js/common.js':[
+			'template/static/lib/erp/js/config.js'	
+		],
+		'template/static/lib/erp/css/common.css':[
+			'template/static/lib/css/**.css'	
+		]
 	}
 });
 
