@@ -59,7 +59,7 @@ if(!isset($resource_load)){
     </head>
     <? /* 请勿在此输出内容，</head>与<body>之间出现任何代码都是不合法的 */ ?>
 	<body ng-controller="AppCtrl">
-	  <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view>
+	  <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}">
         <?= $content;/*内容区*/?>
 	  </div>
         <?
