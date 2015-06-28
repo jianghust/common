@@ -11,6 +11,9 @@ angular.module('app', [
     'ui.utils',
     'ui.load',
     'ui.jq',
+	'ui.grid',
+	'ui.grid.edit',
+	'ui.grid.selection',
     'oc.lazyLoad',
     'pascalprecht.translate'
 ]);

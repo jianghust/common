@@ -48,9 +48,11 @@ if(!isset($resource_load)){
             echo HTML::js('lib/erpcommon.js','common');
             */
         ?>
-		<?= HTML::css('lib/bootstrap/dist/css/bootstrap.css','common')?>
-		<?= HTML::css('lib/animate.css/animate.css','common')?>
-		<?= HTML::css('lib/font-awesome/css/font-awesome.css','common')?>
+		<?= HTML::css('lib/bootstrap/dist/css/bootstrap.css','common');?>
+		<?= HTML::css('lib/animate.css/animate.css','common');?>
+		<?= HTML::css('lib/angular-ui-grid/ui-grid.min.css','common');?>
+		<?= HTML::css('lib/angular-ui-grid/ui-grid.bootstrap.css','common');?>
+		<?= HTML::css('lib/font-awesome/css/font-awesome.css','common');?>
 		<?= HTML::css('lib/simple-line-icons/css/simple-line-icons.css','common')?>
         <?if ($resource_load['page_css']) {
             echo HTML::getCss();
@@ -73,6 +75,7 @@ if(!isset($resource_load)){
 
         <?= HTML::js('lib/jquery/dist/jquery.min.js', 'common');?>
         <?= HTML::js('lib/angular/angular.js', 'common');?>
+		<?= HTML::js('lib/angular-ui-grid/ui-grid.min.js','common');?>
         <?= HTML::js('lib/angular-animate/angular-animate.js', 'common');?>
         <?= HTML::js('lib/angular-cookies/angular-cookies.js', 'common');?>
         <?= HTML::js('lib/angular-resource/angular-resource.js', 'common');?>
