@@ -51,7 +51,6 @@ if(!isset($resource_load)){
 		<?= HTML::css('lib/bootstrap/dist/css/bootstrap.css','common');?>
 		<?= HTML::css('lib/animate.css/animate.css','common');?>
 		<?= HTML::css('lib/angular-ui-grid/ui-grid.min.css','common');?>
-		<?= HTML::css('lib/angular-ui-grid/ui-grid.bootstrap.css','common');?>
 		<?= HTML::css('lib/font-awesome/css/font-awesome.css','common');?>
 		<?= HTML::css('lib/simple-line-icons/css/simple-line-icons.css','common')?>
         <?if ($resource_load['page_css']) {
