@@ -48,11 +48,8 @@ if(!isset($resource_load)){
             echo HTML::js('lib/erpcommon.js','common');
             */
         ?>
-		<?= HTML::css('lib/bootstrap/dist/css/bootstrap.css','common');?>
-		<?= HTML::css('lib/animate.css/animate.css','common');?>
-		<?= HTML::css('lib/angular-ui-grid/ui-grid.min.css','common');?>
-		<?= HTML::css('lib/font-awesome/css/font-awesome.css','common');?>
-		<?= HTML::css('lib/simple-line-icons/css/simple-line-icons.css','common')?>
+		<?= HTML::css('erp/css/lib.css','common');?>
+		<?= HTML::css('erp/css/common.css','common');?>
         <?if ($resource_load['page_css']) {
             echo HTML::getCss();
         }?>
@@ -71,24 +68,8 @@ if(!isset($resource_load)){
             */
         ?>
     </body>
-
-        <?= HTML::js('lib/jquery/dist/jquery.min.js', 'common');?>
-        <?= HTML::js('lib/angular/angular.js', 'common');?>
-		<?= HTML::js('lib/angular-ui-grid/ui-grid.min.js','common');?>
-        <?= HTML::js('lib/angular-animate/angular-animate.js', 'common');?>
-        <?= HTML::js('lib/angular-cookies/angular-cookies.js', 'common');?>
-        <?= HTML::js('lib/angular-resource/angular-resource.js', 'common');?>
-        <?= HTML::js('lib/angular-sanitize/angular-sanitize.js', 'common');?>
-        <?= HTML::js('lib/angular-touch/angular-touch.js', 'common');?>
-        <?= HTML::js('lib/angular-ui-router/release/angular-ui-router.js', 'common');?>
-        <?= HTML::js('lib/ngstorage/ngStorage.js', 'common');?>
-        <?= HTML::js('lib/angular-ui-utils/ui-utils.js', 'common');?>
-        <?= HTML::js('lib/angular-bootstrap/ui-bootstrap-tpls.js', 'common');?>
-        <?= HTML::js('lib/oclazyload/dist/ocLazyLoad.js', 'common');?>
-        <?= HTML::js('lib/angular-translate/angular-translate.js', 'common');?>
-        <?= HTML::js('lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js', 'common');?>
-        <?= HTML::js('lib/angular-translate-storage-cookie/angular-translate-storage-cookie.js', 'common');?>
-        <?= HTML::js('lib/angular-translate-storage-local/angular-translate-storage-local.js', 'common');?>
+		<?= HTML::js('erp/js/lib.js','common');?>
+		<?= HTML::js('erp/js/common.js','common');?>
         <?if($resource_load['page_js']){?>
             <?= HTML::getJs(); ?>
         <?}?>

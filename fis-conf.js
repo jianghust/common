@@ -20,8 +20,7 @@ fis.config.merge({
 			'widget/admin/threadManage.js',
 			'widget/admin/admin_main.js', //原来这个文件名是admin.js,在fis编译里需要修改一下文件名称
 		]*/
-	/*
-		'template/static/lib/erplib.js':[
+		'template/static/erp/js/lib.js':[
 			'template/static/lib/jquery/dist/jquery.min.js',
 			'template/static/lib/angular/angular.js',
 			'template/static/lib/angular-animate/angular-animate.js',
@@ -38,21 +37,22 @@ fis.config.merge({
 			'template/static/lib/angular-translate-loader-static-files/angular-translate-loader-static-files.js',
 			'template/static/lib/angular-translate-storage-cookie/angular-translate-storage-cookie.js',
 			'template/static/lib/angular-translate-storage-local/angular-translate-storage-local.js',
+			'template/static/lib/angular-ui-grid/ui-grid.min.js',
 		],
-		'template/static/lib/erplib.css':[
+		'template/static/erp/css/lib.css':[
 			'template/static/lib/bootstrap/dist/css/bootstrap.css',
 			'template/static/lib/animate.css/animate.css',
 			'template/static/lib/font-awesome/css/font-awesome.css',
 			'template/static/lib/simple-line-icons/css/simple-line-icons.css',
+			'template/static/lib/angular-ui-grid/ui-grid.css',
 		],
-		*/
 		/*
 		*/
-		'template/static/lib/erp/js/common.js':[
-			'template/static/lib/erp/js/config.js'	
+		'template/static/erp/js/common.js':[
+			'template/static/erp/js/**.js'	
 		],
-		'template/static/lib/erp/css/common.css':[
-			'template/static/lib/css/**.css'	
+		'template/static/erp/css/common.css':[
+			'template/static/erp/css/**.css'	
 		]
 	}
 });
