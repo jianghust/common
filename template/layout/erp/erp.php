@@ -22,8 +22,8 @@
 /*资源加载开关*/
 if(!isset($resource_load)){
     $resource_load = array(
-        'page_css'      => true,/*默认加载模块页面的css*/
-        'page_js'       => true,/*默认加载模块页面的js*/
+        'page_css'      => false,/*默认加载模块页面的css*/
+        'page_js'       => false,/*默认加载模块页面的js*/
     );
 }else{
     $resource_load = array(
